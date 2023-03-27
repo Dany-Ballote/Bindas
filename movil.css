@@ -1,0 +1,292 @@
+
+@import url(estilo.css);
+
+/* IPAD */
+
+
+@media screen and (max-width:768px) {
+  
+.contenedorarriba{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.contenedorarriba i{
+  display: block;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 8px;
+  border-radius: 5px; 
+}
+nav{
+  width: 100%;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  background-color: rgba(0, 0, 0,0.8);
+  width: 100%;
+}
+
+nav ul li{
+  display: block;
+  width: 100%;
+}
+
+nav ul li a{
+color: #fff;
+border-bottom: 2px dotted #fff;
+display: block;
+}
+
+.rslides {
+height: 500px;
+  }
+
+
+.rslides img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  } 
+
+
+  .quien1{
+    padding: 10px;
+  }
+
+  .fotito1{
+    width: 50px;
+    position: absolute;
+    z-index: 50;
+    top: 125px;
+    left: 30px;
+  }
+
+  .fotito2{
+    width: 50px;
+    position: absolute;
+    z-index: 50;
+    top: 125px;
+    left: 30px;
+  }
+
+  .fotito3{
+    width: 50px;
+    position: absolute;
+    z-index: 50;
+    top: 125px;
+    left: 30px;
+  }
+
+  .contenedor_caracteristicas2 p{
+    max-width: 700px;
+  }
+
+}
+
+
+/* Celular */
+
+@media screen and (max-width:480px) {
+
+  .filter p{
+    max-width: 400px;
+ 
+  }
+
+.filter h2{
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.rslides {
+  height: 650px;
+    }
+  
+  
+  .rslides img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    } 
+
+    .quien{
+     margin-bottom: 350px;
+    }
+
+    .quien1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+    
+    }
+
+    .services p{
+      width: 400px;
+    }
+
+    .porta p{
+      width: 400px;
+    }
+
+    .option{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+ 
+    .contenedor_caracteristicas{
+      background-color: rgba(230, 0, 255, 0.5);
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .contenedor_caracteristicas article{
+      width: 100px;
+  
+    }
+
+    
+   .contenedor_caracteristicas2 p{
+    width: 450px;
+    color: #fff;
+    text-align: center;
+    }
+
+    .block{
+      width: 400px;
+    }
+
+    .price{
+      width: 400px;
+    }
+
+    
+.blog{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+
+}
+
+.fotito1{
+  width: 50px;
+  position: absolute;
+  z-index: 50;
+  top: 200px;
+  left: 30px;
+}
+
+.fotito2{
+  width: 50px;
+  position: absolute;
+  z-index: 50;
+  top: 200px;
+  left: 30px;
+}
+
+.fotito3{
+  width: 50px;
+  position: absolute;
+  z-index: 50;
+  top: 200px;
+  left: 30px;
+}
+
+.contact{
+  width: 400px;
+}
+
+.direcciones h2{
+  line-height: 40px;
+}
+
+  
+}
+
+@media screen and (max-width:386px) {
+ .filter p{
+  max-width: 350px;
+  
+}
+
+.quien1 p{
+  padding: 10px;
+}
+
+.services p{
+  width: 350px;
+}
+
+.porta p{
+  width: 350px;
+}
+
+.team{
+  width: 350px;
+}
+
+.price{
+  width: 350px;
+}
+
+.contenedor_caracteristicas2 p{
+  width: 350px;
+
+}
+
+.contenedor_caracteristicas2 h3{
+  padding-bottom: 80px;
+}
+
+.block{
+  width: 350px;
+}
+
+.contact{
+  width: 350px;
+}
+
+.contenedor_caracteristicas article{
+  width: 70px;
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contenedor_formulario{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 50px;
+  flex-wrap:wrap;
+}
+  
+}
